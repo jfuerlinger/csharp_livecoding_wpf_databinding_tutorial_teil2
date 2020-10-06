@@ -27,7 +27,6 @@ namespace CdManager.Wpf
     {
       InitializeComponent();
       Loaded += new RoutedEventHandler(MainWindow_Loaded);
-
     }
 
     void MainWindow_Loaded(object sender, RoutedEventArgs e)
