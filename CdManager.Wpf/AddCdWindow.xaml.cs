@@ -1,22 +1,13 @@
 ﻿using CdManager.Model;
-using System;
-using System.Collections.Generic;
-using System.Text;
+using MahApps.Metro.Controls;
 using System.Windows;
-using System.Windows.Controls;
-using System.Windows.Data;
-using System.Windows.Documents;
-using System.Windows.Input;
-using System.Windows.Media;
-using System.Windows.Media.Imaging;
-using System.Windows.Shapes;
 
 namespace CdManager.Wpf
 {
   /// <summary>
   /// Interaction logic for AddCdWindow.xaml
   /// </summary>
-  public partial class AddCdWindow : Window
+  public partial class AddCdWindow : MetroWindow
   {
     private Cd _newCd;
 

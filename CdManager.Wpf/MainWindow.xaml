@@ -1,6 +1,7 @@
-﻿<Window x:Class="CdManager.Wpf.MainWindow"
+﻿<mah:MetroWindow x:Class="CdManager.Wpf.MainWindow"
         xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
         xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+        xmlns:mah="http://metro.mahapps.com/winfx/xaml/controls"
         Title="MainWindow" Height="340" Width="511" MinHeight="180" MinWidth="392"
         Name="wdMain" Style="{StaticResource ResourceKey=WindowStyle}">
   <Grid>
@@ -39,4 +40,4 @@
       <Button Name="btEditTracks">Tracks bearbeiten</Button>
     </UniformGrid>
   </Grid>
-</Window>
+</mah:MetroWindow>

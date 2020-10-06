@@ -7,7 +7,7 @@ Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "CdManager.Model", "CdManage
 EndProject
 Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Utils", "Utils\Utils.csproj", "{A0EAB1B7-C2E6-489C-88C9-3A9ADCDE4F50}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "CdManager.Wpf", "CdManager.Wpf\CdManager.Wpf.csproj", "{64C8DC18-CE7A-415D-96FC-07BC991F6E6F}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "CdManager.Wpf", "CdManager.Wpf\CdManager.Wpf.csproj", "{64C8DC18-CE7A-415D-96FC-07BC991F6E6F}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution

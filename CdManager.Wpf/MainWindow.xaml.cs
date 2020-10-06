@@ -13,13 +13,14 @@ using System.Windows.Navigation;
 using System.Windows.Shapes;
 using CdManager.Model;
 using System.Collections.ObjectModel;
+using MahApps.Metro.Controls;
 
 namespace CdManager.Wpf
 {
   /// <summary>
   /// Interaction logic for MainWindow.xaml
   /// </summary>
-  public partial class MainWindow : Window
+  public partial class MainWindow : MetroWindow
   {
     private List<Cd> _cds;
 
